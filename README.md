@@ -1,5 +1,4 @@
-Regular Expression Examples
-===========================
+# Regular Expression Examples
 
 The goal of this script is to provide examples for regular expression.
 
@@ -7,11 +6,9 @@ Learn regular expression from the book [Automate the Boring Stuff with Python](h
 
 Use [Regexr Tool](http://regexr.com/) to build your regular expression pattern.
 
-Overview
---------
+## Overview
 
-Sub-Section of Running Configuration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+### Sub-Section of Running Configuration
 
 The below example pulls the management interface configuration from the show run.
 
@@ -31,8 +28,7 @@ mgmt_config = pattern.search(config).group()
 print mgmt_config
 ```
 
-Retrieve IP Address
-^^^^^^^^^^^^^^^^^^^
+### Retrieve IP Address
 
 From the management interface configuration, retrieve the IP address.
 
